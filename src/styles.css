@@ -9,6 +9,18 @@ button {
     background-color: white;
     border-radius: 25px;
 }
+
+input {
+    background-color:transparent;
+    border:none;border-right:0px; border-top:0px; boder-left:0px;
+    border-bottom-style:solid; border-bottom-color: #FFF0F5; border-bottom-width:1px;
+    width: 200px !important;
+}
+input::placeholder {  
+    text-align: center;
+}
+
+
 .form,
 .greetings {
     display: none;
