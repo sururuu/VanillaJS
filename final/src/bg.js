@@ -2,7 +2,7 @@ const body = document.querySelector("body")
 
 const IMG_NUMBER = 5;
 
-function painImage(imgNumber) {
+function paintImage(imgNumber) {
   const image = new Image();
   image.src = `images/${imgNumber + 1}.jpg`
   image.classList.add('bgImage');
@@ -16,7 +16,7 @@ function getRandom() {
 
 function init() {
   const randomNumber = getRandom();
-  painImage(randomNumber);
+  paintImage(randomNumber);
 }
 
 init()
